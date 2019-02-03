@@ -17,6 +17,7 @@ For setup within emacs:
 - Open searcheverything.el file and run `M-x RET package-install-from-buffer RET`
 - Add to your init file\
 `(require 'searcheverything)`\
-`(setq searcheverything-cli-path (concat everything-cli-install-dir "es.exe")`
+`(setq searcheverything-cli-path ("XXXX")`\
+ where XXXXX should be replaced with path to previously installed command line tool
 - Bind key for fast command access e.g.
 `(global-set-key (kbd "C-h e") #'searcheverything-execute-query)`
