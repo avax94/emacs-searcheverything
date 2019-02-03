@@ -12,11 +12,11 @@ First you need to download two things:
 
  Both can be found [here](https://www.voidtools.com/downloads/)
 
-For setup within emacs:\
+For setup within emacs:
 - Download searcheverything.el from this repo
 - Open searcheverything.el file and run `M-x RET package-install-from-buffer RET`
-- Add to your init file\
+- Add to your init file
 `(require 'searcheverything)`\
-`(setq searcheverything-cli-path (concat everything-cli-install-dir "es.exe")`\
-- Bind key for fast command access e.g.\
+`(setq searcheverything-cli-path (concat everything-cli-install-dir "es.exe")`
+- Bind key for fast command access e.g.
 `(global-set-key (kbd "C-h e") #'searcheverything-execute-query)`
